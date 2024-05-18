@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-shadow: 2px 2px grey;
+    display: flex;
+    background-color: #ffc0cb;
+    border-radius: 15px;
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-around;
+    
+    align-items: center;
+    margin-top: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.spot {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.entry, .exit {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg); /* Rotate the arrow to point downwards */
+    margin-bottom: 10px;
+}
+
+.A1 { background-color: #ff5252; } /* Red */
+.A2 { background-color: #4caf50; } /* Green */
+.A3 { background-color: #ffeb3b; } /* Yellow */
+.A4 { background-color: #4caf50; } /* Green */
+.A5 { background-color: #ff5252; } /* Red */
+.A6 { background-color: #ffeb3b; } /* Yellow */
+.A7 { background-color: #4caf50; } /* Green */
+.A8 { background-color: #ff5252; } /* Red */
+.A9 { background-color: #ffeb3b; } /* Yellow */
+.A10 { background-color: #4caf50; } /* Green */
+
+header {
+    background-color:#ff1493; /* Set the header background color */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+  }
+
+  .bi-arrow-left-circle{
+    font-size: 30px;
+    color: #000; /* Set arrow color */
+  }
+
+  
+  h1 {
+    color: white; /* Set heading color */
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .app-logo{
+    height: 50px;
+  }
+
+  .bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff1493; /* Set the bottom navbar background color */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .footer-item a {
+    color: #fff; /* Set link color */
+  }
+  
+  .footer-item i {
+    font-size: 24px;
+    color: white; /* Set icon color */
+  }
+  
+  .footer-item i:hover {
+    color: #007bff; /* Set icon color on hover */
+  }
+  .block {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+.status-circle {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.available {
+    background-color: #ff5252; /* Red */
+}
+
+.reserved {
+    background-color: #ffeb3b; /* Yellow */
+}
+
+.booked {
+    background-color: #4caf50; /* Green */
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}

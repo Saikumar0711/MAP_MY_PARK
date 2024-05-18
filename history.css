@@ -1,0 +1,76 @@
+header {
+    background-color:#ff1493; /* Set the header background color */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+  }
+
+  .bi-arrow-left-circle{
+    font-size: 30px;
+    color: #000; /* Set arrow color */
+  }
+
+  
+  h1 {
+    color: white; /* Set heading color */
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .app-logo{
+    height: 50px;
+  }
+
+  .table-data{
+    height: 200px;
+    width: 90%;
+    font-size: 17px;
+    margin-left: 25px;
+    align-items: center;
+
+}
+.space{
+    margin-left: 95px;
+}
+body{
+    background-color:#FFF5EE;
+}
+.sub-div{
+    height: 300px;
+    width: 92%;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: space-between;
+}
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff1493; /* Set the bottom navbar background color */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer-item a {
+    color: white; /* Set link color */
+}
+
+.footer-item i {
+    font-size: 24px;
+}
+
+.footer-item i:hover {
+    color: #007bff; /* Set icon color on hover */
+}

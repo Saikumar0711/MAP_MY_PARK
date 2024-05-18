@@ -1,0 +1,69 @@
+.styling{
+    text-align: center;
+    margin-top: -33px;
+}
+.time{
+    text-align: right;
+    margin-top: -73px;
+    padding: 0 15PX 00PX;
+
+}
+body{
+    background-color:  #FFF5EE;
+}
+.border{
+border: 2px solid black;
+}
+
+header {
+    background-color: #ff1493;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.bi-arrow-left-circle {
+    font-size: 30px;
+    color: black;
+}
+
+.app-logo {
+    height: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Footer Styles */
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff1493; /* Set the bottom navbar background color */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer-item a {
+    color: white; /* Set link color */
+}
+
+.footer-item i {
+    font-size: 24px;
+}
+
+.footer-item i:hover {
+    color: #007bff; /* Set icon color on hover */
+}

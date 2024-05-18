@@ -1,0 +1,125 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF5EE; /* Set a light gray background color */
+  }
+  
+  header {
+    background-color: #ff1493; /* Set the header background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+  }
+  
+  .bi-arrow-left-circle {
+    font-size: 30px;
+    color: black; /* Set arrow color */
+  }
+  
+  h1 {
+    color: #fff; /* Set heading color */
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .profile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    color: #ff1493; /* Set heading color */
+    font-size: 24px;
+  }
+  
+  hr {
+    width: 100%;
+    border: none;
+    border-top: 2px solid #ddd; /* Set a light gray horizontal line */
+    margin-bottom: 20px;
+  }
+  
+  .menu-options button {
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Set a blue button color */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .editprofile {
+    margin-left: 20px;
+    color: #007bff; /* Set edit profile link color */
+    text-decoration: none;
+  }
+  
+  .menu-options button:last-child {
+    background-color: #dc3545; /* Set a red button color for logout */
+  }
+  
+  .menu-options button:hover {
+    width: 82%;
+    background-color: #0056b3; /* Dark blue button color on hover */
+  }
+
+  .menu-options button:hover:last-child {
+    background-color: maroon; /* Dark blue button color on hover */
+  }
+  
+  .app-logo {
+    height: 50px;
+  }
+  
+  .bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff1493; /* Set the bottom navbar background color */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .footer-item a {
+    color: #fff; /* Set link color */
+  }
+  
+  .footer-item i {
+    font-size: 24px;
+  }
+  
+  .footer-item i:hover {
+    color: #007bff; /* Set icon color on hover */
+  }
+  

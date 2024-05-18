@@ -1,0 +1,132 @@
+/* style.css file*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF5EE; /* Set a light gray background */
+  }
+
+header {
+    background-color:#ff1493; /* Set the header background color */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+  }
+
+  .bi-arrow-left-circle{
+    font-size: 30px;
+    color: #000; /* Set arrow color */
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
+    color: #ff1493;
+  }
+  
+  h1 {
+    color: white; /* Set heading color */
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .app-logo{
+    height: 50px;
+  }
+  
+.container {
+    width: 95%;
+    max-width: 500px;
+    margin: 10px;
+}
+ 
+
+.container h1 {
+    color: black;
+}
+ 
+.app-logo{
+    height: 50px;
+
+  }
+
+.section {
+    background-color: #ffffff;
+    padding: 50px 30px;
+    border: 1.5px solid #b2b2b2;
+    border-radius: 0.25em;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+}
+ 
+#my-qr-reader {
+    padding: 20px !important;
+    border: 1.5px solid #b2b2b2 !important;
+    border-radius: 8px;
+}
+ 
+#my-qr-reader img[alt="Info icon"] {
+    display: none;
+}
+ 
+#my-qr-reader img[alt="Camera based scan"] {
+    width: 100px !important;
+    height: 100px !important;
+}
+ 
+button {
+    padding: 10px 20px;
+    border: 1px solid #b2b2b2;
+    outline: none;
+    border-radius: 0.25em;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #ffc0cb;
+    transition: 0.3s background-color;
+}
+ 
+button:hover {
+    background-color: #008000;
+}
+ 
+#html5-qrcode-anchor-scan-type-change {
+    text-decoration: none !important;
+    color: #1d9bf0;
+}
+ 
+video {
+    width: 100% !important;
+    border: 1px solid #b2b2b2 !important;
+    border-radius: 0.25em;
+}
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff1493; /* Set the bottom navbar background color */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .footer-item a {
+    color: #fff; /* Set link color */
+  }
+  
+  .footer-item i {
+    font-size: 24px;
+    color: white; /* Set icon color */
+  }
+  
+  .footer-item i:hover {
+    color: #007bff; /* Set icon color on hover */
+  }

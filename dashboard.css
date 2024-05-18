@@ -1,0 +1,97 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF5EE; /* Light gray background */
+}
+
+header {
+    background-color: #ff1493;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.bi-arrow-left-circle {
+    font-size: 30px;
+    color: black;
+}
+
+.app-logo {
+    height: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.main {
+    margin-top: 20px;
+    background-color: #fff; /* Background color for the main content area */
+    border-radius: 10px; /* Rounded corners for the main content area */
+    padding: 20px; /* Add padding inside the main content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.sub-div {
+    font-size: 24px;
+    margin-bottom: 20px; /* Increase bottom margin for spacing */
+    color: #ff1493; /* Text color for the heading */
+}
+
+
+.space {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.space:last-child {
+    margin-right: 0;
+}
+
+/* Footer Styles */
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff1493; /* Set the bottom navbar background color */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer-item a {
+    color: white; /* Set link color */
+}
+
+.footer-item i {
+    font-size: 24px;
+}
+
+.footer-item i:hover {
+    color: #007bff; /* Set icon color on hover */
+}

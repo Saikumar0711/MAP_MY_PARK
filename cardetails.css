@@ -1,0 +1,82 @@
+body{
+    background-color: #FFF5EE;
+
+}
+.sub-div{
+    height: 50px;
+    width: 60%;
+    border-radius: 20px;
+    background-color: #FFC0CB;
+    font-size: 23px;
+    text-align: center;
+    align-content: center;
+    margin-left: 60px;
+
+
+}
+.space{
+    margin-inline: 50px;
+    width: 120px;
+    height: 40px;
+
+}
+
+header {
+    background-color:#ff1493;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.main{
+    margin-top: 1px;
+    margin-bottom: 100px;
+}
+
+.back-arrow {
+    text-decoration: none;
+    color: black;
+}
+
+.back-arrow i {
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.app-logo {
+    height: 50px;
+}
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#ff1493;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer-item a {
+    color: white;
+}
+
+.footer-item i {
+    font-size: 24px;
+}
+
+.footer-item i:hover {
+    color: #007bff;
+}

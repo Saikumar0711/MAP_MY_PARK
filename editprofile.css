@@ -1,0 +1,70 @@
+.main{
+    height: 420px;
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF5EE; /* Set a light gray background color */
+  }
+  
+  header {
+    background-color:#ff1493; /* Set the header background color */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+  }
+
+  .bi-arrow-left-circle{
+    font-size: 30px;
+    color: #000; /* Set arrow color */
+  }
+
+  
+  h1 {
+    color: white; /* Set heading color */
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .app-logo{
+    height: 50px;
+  }
+  .bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff1493; /* Set the bottom navbar background color */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .footer-item a {
+    color: #fff; /* Set link color */
+  }
+  
+  .footer-item i {
+    font-size: 24px;
+    color: white; /* Set icon color */
+  }
+  
+  .footer-item i:hover {
+    color: #007bff; /* Set icon color on hover */
+  }
