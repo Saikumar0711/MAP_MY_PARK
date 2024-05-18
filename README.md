@@ -29,3 +29,28 @@ Prerequisites
 Node.js and npm installed.
 MongoDB database setup.
 AWS account for cloud services.
+
+
+Accessing the Application
+Open a web browser and go to http://localhost:3000 to access the City Parking Management System.
+
+Features Walkthrough
+Home Page
+Search Bar: Search for vehicles by number.
+CCTV Footage: View real-time footage of the parking lot.
+Sections: Navigate to car, bike, and heavy vehicle sections.
+Navigation Bar
+Home: Return to the home page.
+Scanner: Scan tickets to verify bookings.
+Settings: Manage notifications and dark mode.
+Menu
+Dashboard: View overall statistics.
+Privacy Policy: Read privacy policies.
+Parking History: View parking history.
+About Us: Learn more about the project.
+Logout: Log out of the system.
+Scanner
+Scan Ticket: Verify ticket booking and view vehicle details.
+Settings
+Notifications: Turn notifications on or off.
+Dark Mode: Enable or disable dark mode.
